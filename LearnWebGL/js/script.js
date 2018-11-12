@@ -14,7 +14,7 @@ const renderer = new THREE.WebGLRenderer({canvas: canvas});
 renderer.setClearColor(0x555555);
 renderer.setSize(width, height);
 
-const axes = new THREE.AxesHelper(20);
+const axes = new THREE.AxesHelper(150);
 scene.add(axes);
 
 const light = new THREE.AmbientLight(0xffffff);
